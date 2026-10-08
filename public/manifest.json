@@ -1,0 +1,31 @@
+{
+  "name": "BirrVerify - Ethiopian Payment Verification",
+  "short_name": "BirrVerify",
+  "description": "Multi-bank digital payment verification system for Ethiopian merchants (Telebirr, CBE, Awash, BOA, Dashen, Berhan, CoOP)",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#5C068C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='128' fill='%235C068C'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='220' font-weight='900' fill='white'>BV</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Verify Receipt",
+      "short_name": "Verify",
+      "description": "Quick terminal to scan and verify customer payment slip",
+      "url": "/?mode=verify"
+    },
+    {
+      "name": "Manager Dashboard",
+      "short_name": "Dashboard",
+      "description": "Check daily collections and fraud reports",
+      "url": "/?mode=dashboard"
+    }
+  ]
+}
